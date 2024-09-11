@@ -1,3 +1,5 @@
 pyyaml
 lightning
 tensorflow
+timm
+deepspeed

@@ -1,0 +1,13 @@
+# config.yaml
+model:
+  name: "resnet18"
+  pretrained: true
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 10
+
+data:
+  train_dataset_path: "./data/train"
+  val_dataset_path: "./data/val"
